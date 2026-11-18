@@ -1,0 +1,27 @@
+# Зависимости
+node_modules/
+
+# Локальные файлы окружения с паролями и доступом к БД
+.env
+.env.local
+
+# Системные файлы и кэш
+.DS_Store
+Thumbs.db
+
+# Логи сборки и работы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Директории сборки
+dist/
+build/
+
+# Базы данных (если используются локально)
+*.sqlite
+*.sqlite-journal
+
+
+<p data-source-line="60" class="empty-line final-line end-of-document" style="margin:0;"></p>
